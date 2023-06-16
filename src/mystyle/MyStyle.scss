@@ -444,6 +444,14 @@ $border: #F2F2F2;
 }
 
 // top product style
+.product-title{
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
 .product-type-btn {
     background: transparent;
     display: inline-block;
@@ -945,7 +953,6 @@ $border: #F2F2F2;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid $border;
     padding: 15px 0;
 
     &:hover .short-info-card-btn {
@@ -1268,4 +1275,178 @@ footer {
 .nimanima div {
     margin: 0 5px;
     width: auto !important;
+}
+
+// BreadPages style
+.BreadPages{
+    background: fixed url('bread_bg.jpg') no-repeat center center / cover;
+    margin-bottom: 70px;
+    .BreadCrumb{
+        padding: 80px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        a{
+            text-decoration: none;
+            color: #bcbcbc;
+            line-height: 18px;
+        }
+        i{
+            font-size: 16px;
+            margin: 0 10px;
+            color: #bcbcbc;
+        }
+        .active{
+            color: #656565;
+        }
+    }
+}
+
+// LeftAllProducts style
+.LeftAllProducts{
+    padding: 30px;
+    .widget{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        .widget-title{
+            font-size: 20px;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 700;
+                padding-bottom: 20px;
+                color: #347758;
+        }
+        .product{
+            .product_info{
+                a{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 700;
+                }
+                .comment-stars{
+                    i{
+                        line-height: 1.618;
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+                .product-price{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    font-size: 20px;
+                    font-weight: 700;
+                    letter-spacing: .2px;
+                    line-height: 28px;
+                }
+            }
+        }
+        ul{
+            li{
+                margin-bottom: 0.5em;
+                display: flex;
+                img{
+                    max-width: 85px;
+                    height: auto;
+                    display: block;
+                }   
+                a{
+                    font-size: 16px;
+                    color: #656565;
+                    text-decoration: none
+                }
+            }
+        }
+        .tags{
+            .btn{
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px!important;
+                padding: 2px 15px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// RightProductInfo
+.RightProductInfo{
+    .comment_container{
+        p{
+            margin: 0 0 1em;
+        }
+        .comment_info{
+            img{
+                width: 50px;
+                height: 50px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            i{
+                font-size: .875em;
+                line-height: 1;
+                height: 1em;
+            }
+            strong{
+                color: #3d3d3d;
+                font-size: 16px;
+            }
+            time{
+                color: #bcbcbc;
+            }
+            .comment-stars{
+                margin: 0!important;
+            }
+        }
+    }
+    .php-email-form{
+        .comment-text{
+            margin: 0!important;
+        }
+        .checkbox_cookies{
+            color: #656565;
+        }
+        button{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 23px;
+            color: #3d3d3d;
+            padding: 11px 45px;
+        }
+    }
+    .img-min-products{
+        justify-content: space-between;
+        img{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #f4f4f4;
+            border-radius: 30%;
+            padding: 5px;
+        }
+    }
+    .info-product{
+        .comment-stars-link{
+            font-size: 14px;
+            text-transform: capitalize;
+            color: #bcbcbc;
+        }
+        .about-product{
+            font-size: 13px;
+            line-height: 1.7;
+            color: #3d3d3d;
+        }
+        .value{
+            font-size: 15px;
+            color: #3d3d3d;
+        }
+        .add-card{
+            margin-left: 20px!important;
+        }
+        .quantity{
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
 }

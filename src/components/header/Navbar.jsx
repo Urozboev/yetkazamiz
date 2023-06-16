@@ -125,7 +125,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="header-navbar">
+        <nav className="header-navbar border-bottom">
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-2 col-lg-1">
@@ -170,7 +170,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="col-7 col-lg-2 text-center">
-                        <a href="index.html" className="logo">
+                        <a href="/" className="logo">
                             <img src="images/logo.svg" alt="" />
                         </a>
                     </div>

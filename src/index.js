@@ -7,12 +7,15 @@ import 'keen-slider/keen-slider.min.css'
 import KeenSlider from 'keen-slider';
 import { Provider } from 'react-redux'
 import store from './configStore';
+import { BrowserRouter, Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </React.StrictMode>
+  </BrowserRouter>
 );

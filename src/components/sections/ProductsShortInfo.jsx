@@ -11,7 +11,7 @@ function ProductsShortInfo() {
                         <h2 className="section-title">Best Seller</h2>
                         <div className="short-info-box">
                             {products.slice(0, 4).map((product, i) => {
-                                return <div className="short-info-card" key={product.id}>
+                                return <div className="short-info-card border-bottom" key={product.id}>
                                     <a href="#" className="short-info-card-img">
                                         <img src={`images/${product.imgName}`} alt={product.imgName} />
                                     </a>
@@ -45,7 +45,7 @@ function ProductsShortInfo() {
                         <h2 className="section-title">Top Product</h2>
                         <div className="short-info-box">
                             {products.slice(0, 4).map((product, i) => {
-                                return <div className="short-info-card" key={product.id}>
+                                return <div className="short-info-card border-bottom" key={product.id}>
                                     <a href="#" className="short-info-card-img">
                                         <img src={`images/${product.imgName}`} alt={product.imgName} />
                                     </a>

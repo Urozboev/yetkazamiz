@@ -20,7 +20,7 @@ function TopProduct() {
                         <div className="product-card">
                             <div className="product-card-block">
                                 <a href="#" className="product-card-img">
-                                    <img src="images/bodring.png" alt="image" />
+                                    <a href="/product"><img src="images/bodring.png" alt="image" /></a>
                                     <span className="badge bg-danger text-white rounded-pill position-absolute start-0 top-0">-22%</span>
                                     <div className="product-actions">
                                         <button>
@@ -39,7 +39,7 @@ function TopProduct() {
                                     Fruits & Vegatables
                                 </a>
 
-                                <a href="#" className="product-name">
+                                <a href="/product" className="product-name">
                                     Awesome Wool Lamp
                                 </a>
 
@@ -73,7 +73,7 @@ function TopProduct() {
                         <div className="product-card">
                             <div className="product-card-block">
                                 <a href="#" className="product-card-img">
-                                    <img src="images/bodring.png" alt="image" />
+                                    <a href="/product"><img src="images/bodring.png" alt="image" /></a>
                                     <span className="badge bg-danger text-white rounded-pill position-absolute start-0 top-0">-22%</span>
                                     <div className="product-actions">
                                         <button>
@@ -92,7 +92,7 @@ function TopProduct() {
                                     Fruits & Vegatables
                                 </a>
 
-                                <a href="#" className="product-name">
+                                <a href="/product" className="product-name">
                                     Awesome Wool Lamp
                                 </a>
 
@@ -126,7 +126,7 @@ function TopProduct() {
                         <div className="product-card">
                             <div className="product-card-block">
                                 <a href="#" className="product-card-img">
-                                    <img src="images/bodring.png" alt="image" />
+                                    <a href="/product"><img src="images/bodring.png" alt="image" /></a>
                                     <span className="badge bg-danger text-white rounded-pill position-absolute start-0 top-0">-22%</span>
                                     <div className="product-actions">
                                         <button>
@@ -145,7 +145,7 @@ function TopProduct() {
                                     Fruits & Vegatables
                                 </a>
 
-                                <a href="#" className="product-name">
+                                <a href="/product" className="product-name">
                                     Awesome Wool Lamp
                                 </a>
 
@@ -179,7 +179,7 @@ function TopProduct() {
                         <div className="product-card">
                             <div className="product-card-block">
                                 <a href="#" className="product-card-img">
-                                    <img src="images/bodring.png" alt="image" />
+                                    <a href="/product"><img src="images/bodring.png" alt="image" /></a>
                                     <span className="badge bg-danger text-white rounded-pill position-absolute start-0 top-0">-22%</span>
                                     <div className="product-actions">
                                         <button>
@@ -198,7 +198,7 @@ function TopProduct() {
                                     Fruits & Vegatables
                                 </a>
 
-                                <a href="#" className="product-name">
+                                <a href="/product" className="product-name">
                                     Awesome Wool Lamp
                                 </a>
 
